@@ -4,10 +4,15 @@
 	import Contactbtn from "../lib/Contactbtn.svelte";
 
 </script>
+<svelte:head>
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@600;700&family=Montserrat:ital,wght@0,600;1,500;1,700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+</svelte:head>
+
 <main class="flex flex-col">
 		<header class="flex justify-between items-center mx-12">
 			<div>
-				LOGO
+				<img src="./assets/SYDNEY-BRUCE.svg" alt="sydney bruce wordmark" class="w-auto h-[65px] m-4">
 			</div>
 		<div class="flex items-center justify-between">
 			<NavBar></NavBar>
