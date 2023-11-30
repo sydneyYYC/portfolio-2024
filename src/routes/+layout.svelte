@@ -6,7 +6,6 @@
 </script>
 <svelte:head>
 	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@600;700&family=Montserrat:ital,wght@0,600;1,500;1,700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-
 </svelte:head>
 
 <main class="flex flex-col">

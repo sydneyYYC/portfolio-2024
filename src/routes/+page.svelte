@@ -1,4 +1,6 @@
 <script>
+	import Workcard from "../lib/Workcard.svelte";
+
 	
 </script>
 
@@ -12,7 +14,7 @@
   <div class="bg-slate-200 rounded-full w-[400px] h-[400px]">
   </div>
 </div>
-<section class="border-[1.5px] border-black">
+<section class="border-[1.5px] border-black pb-[5rem]">
 <h2 class="text-5xl p-2 text-center my-[6rem]">About Me</h2>
 
 <div class="mx-[10rem] py-2 my-4 text-xl min-w-[40ch]" id="about">
@@ -25,6 +27,11 @@
 
   <p class="leading-relaxed">Expert in soft skills. Sales experience, able to talk in a professional way and lead clients through the process. I’m an excellent communicator (verbally, written and visually). Five years experience in taking feedback and implementing changes to my work.</p>
 </div>
+</section>
+<section id="work">
+  <h2 class="text-5xl p-2 text-center my-[6rem]">See my Work!</h2>
+
+  <Workcard />
 </section>
 
 <style>
