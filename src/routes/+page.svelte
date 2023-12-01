@@ -1,5 +1,6 @@
 <script>
-	import Workcard from "../lib/Workcard.svelte";
+	import ReverseWorkcard from "../lib/ReverseWorkcard.svelte";
+import Workcard from "../lib/Workcard.svelte";
 
 	
 </script>
@@ -32,10 +33,11 @@
   <h2 class="text-5xl p-2 text-center my-[6rem]">See my Work!</h2>
 
   <Workcard />
+  <ReverseWorkcard></ReverseWorkcard>
 </section>
 
 <style>
-  /* this is the fonts that are imported */
+  /* imported fonts */
   p {
     font-family: 'Roboto', sans-serif;
   }
