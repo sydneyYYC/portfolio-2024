@@ -2,6 +2,7 @@
 	import NavBar from "../lib/NavBar.svelte";
 	import "../app.css";
 	import Contactbtn from "../lib/Contactbtn.svelte";
+	import Footer from "../lib/Footer.svelte";
 
 </script>
 <svelte:head>
@@ -20,6 +21,7 @@
 	</header>
 <slot />
 </main>
+<Footer></Footer>
 
 <style>
 	/* required css to change bg color */
