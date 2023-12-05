@@ -22,14 +22,19 @@
 <h2 class="text-5xl p-2 text-center my-[6rem]">About Me</h2>
 
 <div class="mx-[10rem] py-2 my-4 text-xl min-w-[40ch]" id="about">
-  <p class="leading-relaxed">Junior web developer and designer with practical coding experience. </p>
+  <p>
+    I am a designer and web developer based in Calgary, AB.
+    Three years ago I moved to Calgary from Ontario for my BFA at Alberta University of the Arts. 
+    During my studies I caught a show in <em>The Illingworth Kerr Gallery</em> on a whim. It was a collection of work themed around AI, machine learning, surveillance, and ethical tech usage. Here I was introduced to how art and technology could come together. I was hooked, and it completely changed my process and my focus. 
+  </p>
 
-  <p class="leading-relaxed">Bachelors of Fine Art and Certificate of Web Development.</p>
-  <p class="leading-relaxed">Skills with HTML, CSS, Javascript, React, Svelte, Git/Github and SQL NOSQL databases. </p>
+  <p>
+    Between 2022 and 2023 I was featured in three public art shows where I was prominently mixing art and computer tech in my work. The success of these projects led to winning the Board of Governors Graduating Student Award in 2023. 
+  </p>
 
-  <p class="leading-relaxed">Skills with Adobe Photoshop, Illustrator, InDesign. </p>
-
-  <p class="leading-relaxed">Expert in soft skills. Sales experience, able to talk in a professional way and lead clients through the process. I’m an excellent communicator (verbally, written and visually). Five years experience in taking feedback and implementing changes to my work.</p>
+   <p>  
+    Moving forward I am still combining art and tech in creating responsive web pages. I love learning new things and experimenting. If you have a web problem that requires a creative solution, reach out! I am actually very cool. 
+  </p>
 </div>
 </section>
 <section id="projects">
