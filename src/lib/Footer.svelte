@@ -1,9 +1,9 @@
 <script>
     export let footerItems = [
     {name: "about me", href:"#about"},
-    {name: "projects", href: "#projects"}
+    {name: "projects", href: "#projects"},
+    {name: "contact", href:"/"}
   ];
-  import Contactbtn from './Contactbtn.svelte';
 </script>
 
 <footer class="border-2 border-black bg-[#FEF9F5] flex justify-around p-4 h-[10rem] items-center">
@@ -18,5 +18,6 @@
   </ul>
   <p class="text-md m-2 p-2 text-center">&copy;Sydney Bruce</p>
 </div>
-<Contactbtn />
+<img src="/SB.png" alt="sydney bruce icon">
+<!-- TODO: change png to svg -->
 </footer>

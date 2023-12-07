@@ -1,7 +1,6 @@
 <script>
 	import NavBar from "../lib/NavBar.svelte";
 	import "../app.css";
-	import Contactbtn from "../lib/Contactbtn.svelte";
 	import Footer from "../lib/Footer.svelte";
 
 </script>
@@ -16,7 +15,6 @@
 			</div>
 		<div class="flex items-center justify-between">
 			<NavBar></NavBar>
-			<Contactbtn></Contactbtn>
 		</div>
 	</header>
 <slot />

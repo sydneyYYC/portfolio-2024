@@ -1,13 +1,14 @@
 <script>
   export let navItems = [
     {name: "about me", href:"#about"},
-    {name: "projects", href: "#projects"}
+    {name: "projects", href: "#projects"},
+    {name: "contact", href:"/"}
   ];
 </script>
-<header class=" max-w-max border-2 border-black flex g-4 rounded-full items-center self-center m-4 drop-shadow-flat mr-[10rem]">
+<header class=" max-w-max border-2 border-black flex g-4 items-center self-center m-4 drop-shadow-flat mr-[4rem]">
   <ul class="flex justify-around item-center">
     {#each navItems as {name , href}}
-    <a href={href}><li class="p-2 mx-2 px-4 text-lg">{name}</li></a>
+    <a href={href}><li class="p-2 m-2 px-4 text-xl">{name}</li></a>
     {/each}
   </ul>
   <div>
