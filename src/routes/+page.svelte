@@ -31,17 +31,18 @@
   });
 
 </script>
-
+  <!-- header/hero section -->
 <div class="flex items-center justify-around my-[6rem]">
   <div>
     <h1 class="text-bold text-7xl mb-4">Hello,</h1> 
     <h1 class="text-bold text-7xl mb-4"> I'm Sydney Bruce</h1>
     <p class="text-3xl max-w-[35ch] mb-4">Jr web designer and developer that makes unique web experiences.</p>
-    <button class="bg-[#F6C3AE] max-w-max px-4 py-2 text-lg font-semibold border-[1.5px] border-black">Learn More</button>
+    <a href="#about"><button class="bg-pupink max-w-max px-4 py-2 text-lg font-semibold border-[1.5px] border-black">Learn More</button></a>
   </div>
   <div class="bg-slate-200 rounded-full w-[400px] h-[400px]">
   </div>
 </div>
+  <!-- about me section -->
 <section class="border-y-[1.5px] border-black pb-[5rem]">
   <div class="flex g-2 items-center mt-4">
     <h2 class="text-5xl p-2 ml-[10rem] mr-2">About Me</h2>
@@ -65,6 +66,7 @@
     </div>
   </div>
 </section>
+<!-- portfolio section -->
 <section id="projects">
   <h2 class="text-5xl p-2 text-center my-[6rem]">See my Work!</h2>
   <Workcard />

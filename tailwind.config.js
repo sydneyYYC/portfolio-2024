@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         pupink: '#F6C3AE',
+        accent: '#F0743E',
       },
     },
   },
