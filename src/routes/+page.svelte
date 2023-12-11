@@ -43,13 +43,13 @@
   </div>
 </div>
   <!-- about me section -->
-<section class="border-y-[1.5px] border-black pb-[5rem]">
+<section class="border-y-[1.5px] border-black pb-[5rem]" id="about">
   <div class="flex g-2 items-center mt-4">
     <h2 class="text-5xl p-2 ml-[10rem] mr-2">About Me</h2>
     <img id = "box" src="./assets/self.svg" alt = "hand drawn self portrait" class="w-[9rem] h-auto">
     <!-- <img id="box" src="./assets/hand.svg" alt="drawing of hand" class="w-[5rem] h-auto"> -->
   </div>
-  <div class="mx-[10rem] py-2 my-4 text-xl min-w-[40ch]" id="about">
+  <div class="mx-[10rem] py-2 my-4 text-xl min-w-[40ch]">
     <p class="mb-4">
       I am a designer and web developer based in Calgary, AB.
       Three years ago I moved to Calgary from Ontario for my BFA at Alberta University of the Arts. 

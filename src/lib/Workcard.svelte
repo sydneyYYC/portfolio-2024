@@ -7,7 +7,7 @@
 
 <aside id="card-work" class="min-w-screen grid grid-cols-12 grid-rows-2"> 
   <!-- TODO: ADD PROJECT -->
-  <div class="border-[1.5px] bg-white border-black w-[20rem] flex flex-col z-10 col-start-2 col-span-3 row-start-1 row-span-2 self-center">
+  <div class="border-[1.5px] bg-white border-black w-[20rem] flex flex-col z-10 col-start-2 col-span-4 row-start-1 row-span-2 self-center">
     <h5 class="text-2xl border-b-[1px] border-black m-4 p-2 mt-[2rem]">{projectTitle}</h5>
     <p class="mt-4 mx-4 text-lg">{description}</p>
     <button class="border-[1px] border-black max-w-max self-center m-2 p-4 mb-4 hover:bg-pupink text-lg font-semibold">See More</button>
