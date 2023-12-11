@@ -62,7 +62,7 @@
       <p class="mb-4 max-w-[75ch]">  
         Moving forward I am still combining art and tech in creating responsive web pages. I love learning new things and experimenting. If you have a web problem that requires a creative solution, reach out! I am actually very cool. 
       </p>
-      <img id="box2" src="./assets/computer.svg" alt="drawing of computer" class="w-[8rem] h-auto ml-4 mb-2 ml-2">
+      <img id="box2" src="./assets/computer.svg" alt="drawing of computer" class="w-[8rem] h-auto ml-6 mb-2">
     </div>
   </div>
 </section>
