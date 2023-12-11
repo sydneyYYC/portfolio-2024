@@ -1,7 +1,6 @@
 <script>
 	import NavBar from "../lib/NavBar.svelte";
 	import "../app.css";
-	import Contactbtn from "../lib/Contactbtn.svelte";
 	import Footer from "../lib/Footer.svelte";
 
 </script>
@@ -9,14 +8,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@600;700&family=Montserrat:ital,wght@0,600;1,500;1,700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </svelte:head>
 
+<!-- <div class="m-auto bg-[#FEF9F5] max-h-min max-w-max z-10"><NavBar></NavBar></div> -->
 <main class="flex flex-col">
-		<header class="flex justify-between items-center mx-12">
-			<div>
-				<img src="./assets/SYDNEY-BRUCE.svg" alt="sydney bruce wordmark" class="w-auto h-[65px] m-4">
-			</div>
+	<header class="flex justify-between items-center sticky top-0 bg-white max-w-[100vw] z-20">
+		<div>
+			<img src="./assets/SYDNEY-BRUCE.svg" alt="sydney bruce wordmark" class="w-auto h-[55px] lg:h-[65px] m-4">
+		</div>
 		<div class="flex items-center justify-between">
-			<NavBar></NavBar>
-			<Contactbtn></Contactbtn>
+			<NavBar />
 		</div>
 	</header>
 <slot />
@@ -29,4 +28,8 @@
 		background-color: #FEF9F5;
 	}
 	
+	header {
+		-webkit-box-shadow: 3px 3px 0px 2px #000000; 
+    box-shadow: 3px 3px 0px 2px #000000;
+	}
 </style>
