@@ -10,9 +10,9 @@
 
 <!-- <div class="m-auto bg-[#FEF9F5] max-h-min max-w-max z-10"><NavBar></NavBar></div> -->
 <main class="flex flex-col">
-	<header class="flex justify-between items-center sticky top-0 bg-white max-w-[98vw]">
+	<header class="flex justify-between items-center sticky top-0 bg-white max-w-[100vw] z-20">
 		<div>
-			<img src="./assets/SYDNEY-BRUCE.svg" alt="sydney bruce wordmark" class="w-auto h-[65px] m-4">
+			<img src="./assets/SYDNEY-BRUCE.svg" alt="sydney bruce wordmark" class="w-auto h-[55px] lg:h-[65px] m-4">
 		</div>
 		<div class="flex items-center justify-between">
 			<NavBar />
