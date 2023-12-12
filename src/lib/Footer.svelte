@@ -1,8 +1,7 @@
 <script>
     export let footerItems = [
     {name: "about", href:"#about"},
-    {name: "projects", href: "#projects"},
-    {name: "contact", href:"/"}
+    {name: "projects", href: "#projects"}
   ];
 </script>
 
@@ -18,7 +17,7 @@
   </ul>
   <p class="text-md m-2 p-2 text-center">&copy;Sydney Bruce</p>
 </div>
-<img src="/SB.png" alt="sydney bruce icon">
+<a href="#top" class="p-2"><img src="/SB.png" alt="sydney bruce icon"></a>
 <!-- TODO: change png to svg -->
 </footer>
 

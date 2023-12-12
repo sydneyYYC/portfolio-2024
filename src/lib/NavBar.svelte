@@ -16,7 +16,7 @@
     {#each navItems as {name , href}}
       <a href={href}><li class="p-2 m-2 lg:px-4 px-2 text-md lg:text-xl">{name}</li></a>
     {/each}
-    <button  on:click={() => (showModal = true)} class="lg:px-4 px-2 text-md lg:text-xl">contact</button>
+    <button  on:click={() => (showModal = true)} class="lg:px-4 px-2 text-md lg:text-xl">resume</button>
   </ul>
   <div class="a max-w-max p-2 py-4">
     <a href="https://github.com/sydneyYYC"><img src="./assets/github.svg" alt="github logo" class= "lg:w-[30px] lg:h-[30px] lg:mx-4 w-[25px] h-[25px] mx-2"></a>
