@@ -5,6 +5,13 @@
 
   import { animate } from "motion";
 
+  let hotwaxCard = {
+    img: "./assets/hotwax-screenshot.png",
+    alt: "red record player",
+    projectTitle: "Hot Wax Music",
+    description: "A music app that connects to the Spotify API. Created in React using async fetches to render info from the users spotify account. Pause, play and change the currently playing song.",
+    href: "https://hotwax.netlify.app/"
+  };
 // animation for face rotate
   onMount(() => {
     animate(
@@ -71,7 +78,7 @@
 <!-- portfolio section -->
 <section id="projects">
   <h2 class="text-5xl p-2 text-center my-[6rem]">See my Work!</h2>
-  <Workcard />
+  <Workcard {...hotwaxCard}/>
   
 </section>
 
