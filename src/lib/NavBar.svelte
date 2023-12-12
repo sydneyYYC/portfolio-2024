@@ -11,7 +11,7 @@
   ];
   
 </script>
-<header class=" z-10 max-w-max border-2 border-black flex g-4 items-center self-center m-4 drop-shadow-flat lg:mr-[4rem] bg-[#FEF9F5]">
+<header class=" z-10 max-w-max  flex g-4 items-center self-center m-4 drop-shadow-flat lg:mr-[4rem]">
   <ul class="flex justify-around item-center">
     {#each navItems as {name , href}}
       <a href={href}><li class="p-2 m-2 lg:px-4 px-2 text-md lg:text-xl">{name}</li></a>
@@ -30,10 +30,6 @@
 </header>
 
 <style>
-  /* header {
-    -webkit-box-shadow: 3px 3px 0px 2px #000000; 
-    box-shadow: 3px 3px 0px 2px #000000;
-  } */
 
   /* hover animation for nav links */
   a:hover {
