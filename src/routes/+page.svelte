@@ -4,12 +4,13 @@
   import { onMount } from 'svelte';
 
   import { animate } from "motion";
+	import Footer from "../lib/Footer.svelte";
 
   let hotwaxCard = {
     img: "./assets/hotwax-screenshot.png",
     alt: "red record player",
     projectTitle: "Hot Wax Music",
-    description: "A music app that connects to the Spotify API. Created in React using async fetches to render info from the users spotify account. Pause, play and change the currently playing song.",
+    description: "A music app that connects to the Spotify API. Created in React using async API fetches to render info from the users spotify account. Pause, play and change the currently playing song.",
     href: "https://hotwax.netlify.app/"
   };
 // animation for face rotate
@@ -81,7 +82,7 @@
   <Workcard {...hotwaxCard}/>
   
 </section>
-
+<Footer />
 <style>
   /* imported fonts */
   p {
