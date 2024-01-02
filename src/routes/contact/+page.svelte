@@ -37,7 +37,7 @@ onMount(() => {
   <section class="self-start flex flex-col overflow-hidden ">
     <h3 class=" text-6xl lg:text-8xl mb-6 mx-6 lg:my-[1.7rem]">Contact Me</h3>
     <div class="flex flex-col border-[1.5px] border-black bg-white mx-6 mt-[2rem] justify-self-end">
-    <form name="contact" netlify class="flex flex-col align-items-start p-4 mx-4 justify-self-end  mt-[1.5rem] ">
+    <form name="contact" method="POST" netlify class="flex flex-col align-items-start p-4 mx-4 justify-self-end  mt-[1.5rem] ">
       <label for="name" class="my-2 font-semibold">Name</label>
       <input type="text" placeholder="Your Name" id="name" required class="border-b-[1px] border-black">
 
