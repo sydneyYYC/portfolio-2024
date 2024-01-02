@@ -1,7 +1,7 @@
 # Welcome to my Portfolio Website 
 
 Enjoy your time here
-[LiveSite](sydneybruce.ca)
+[LiveSite](https://sydneybruce.ca/)
 
 ### Attributions
 
