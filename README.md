@@ -1,6 +1,9 @@
 # Welcome to my Portfolio Website 
 
-Enjoy your time here
+I am a Jr Front-end Web Developer living in AB Canada. 
+This is my web developer portfolio for 2024. 
+Enjoy your time here!
+
 [LiveSite](https://sydneybruce.ca/)
 
 ### Attributions
