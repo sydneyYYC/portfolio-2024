@@ -6,8 +6,14 @@ Enjoy your time here!
 
 [LiveSite](https://sydneybruce.ca/)
 
+
+### My Tech Stack
+
+- Svelte 
+- Figma (design and SVG building)
+
 ### Attributions
 
-[icons](https://www.iconfinder.com/)
+[Github Icon](https://www.iconfinder.com/)
 
 All photos and Illustrations done by me

@@ -29,7 +29,7 @@ onMount(() => {
 
 <body class=" flex min-h-screen max-w-max m-0">
   <div class="lg:ml-[8rem] self-start my-[2rem] mr-[2rem]">
-    <div class=" bg-[#B9D0F1] lg:w-[450px] lg:h-[550px] m-4 md:w-[350px] md:h-[450px] h-0 w-0 flex items-center justify-center ">
+    <div class=" bg-[url('/assets/sky.png')] lg:w-[450px] lg:h-[550px] m-4 md:w-[350px] md:h-[450px] h-0 w-0 flex items-center justify-center ">
       <img id="wings" src="/assets/wings.svg" alt="wings" class="w-auto md:h-auto w-0 h-0 px-2">
       <img id="mail" src="/assets/mail.svg"alt="mail" class="md:w-[230px] lg:w-auto absolute w-0">
     </div>
