@@ -11,6 +11,7 @@ Enjoy your time here!
 
 - Svelte 
 - Figma (design and SVG building)
+- MotionOne Animation Library
 
 ### Attributions
 

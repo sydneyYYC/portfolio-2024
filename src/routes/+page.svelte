@@ -48,13 +48,13 @@
     <a href="#about"><button class="ml-2 bg-pupink max-w-max px-4 py-2 text-lg font-semibold border-[1.5px] border-black" id="learn-button">Learn More</button></a>
   </div>
   <img id = "box" src="./assets/self.svg" alt = "hand drawn self portrait" class="w-[0] h-[0] lg:w-[400px] lg:h-[400px]">
-  <!-- <div class="bg-slate-200 rounded-full w-[0] h-[0] lg:w-[400px] lg:h-[400px]"> -->
-  <!-- </div> -->
+
 </div>
   <!-- about me section -->
 <section class=" pb-[5rem]" id="about">
   <div class="flex g-2 items-center mt-4">
     <h2 class=" text-4xl lg:text-5xl p-2 lg:ml-[5rem] mx-[2rem]">About Me</h2>
+    <!-- this is an unsused hand animation -->
     <!-- <img id="box" src="./assets/hand.svg" alt="drawing of hand" class="w-[5rem] h-auto"> -->
   </div>
   <div class=" mx-[2rem] lg:mx-[4rem] py-2 my-4 text-lg lg:text-xl leading-relaxed lg:flex lg:space-around min-w-screen ">
