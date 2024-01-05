@@ -54,13 +54,13 @@ onMount(() => {
       <!-- form -->
     <form id="myform" name="contact" method="POST" data-netlify="true" class="flex flex-col align-items-start p-4 mx-4 justify-self-end  mt-[1.5rem] ">
       <label for="name" class="my-2 font-semibold">Name</label>
-      <input type="text" placeholder="Your Name" id="name" required class="border-b-[1px] border-black">
+      <input type="text" placeholder="Your Name" name="name" required class="border-b-[1px] border-black">
 
       <label for="email" class="my-2 font-semibold">Email</label>
-      <input type="email" placeholder="Your Email" id=email required class="border-b-[1px] border-black ">
+      <input type="email" placeholder="Your Email" name="email" required class="border-b-[1px] border-black ">
 
       <label for="phone" class="my-2 font-semibold">Phone Number</label>
-      <input type="text" placeholder="Phone" id="phone" required class="border-b-[1px] border-black ">
+      <input type="text" placeholder="Phone" name="phone" required class="border-b-[1px] border-black ">
 
       <label for="message" class="my-2 font-semibold">Message</label>
       <textarea name="message" id="message" rows="1" placeholder="How can I help you?" required class="border-b-[1px] border-black "></textarea>
