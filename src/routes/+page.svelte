@@ -7,7 +7,7 @@
 	import Footer from "../lib/Footer.svelte";
 
   let quizApp = {
-    img : "./assets/test1.png",
+    img : "./assets/test2.png",
     alt: "character mascot of brain with hat",
     projectTitle: "Quiz App",
     description: "Makes learning fun! This App asks questions from four well known periods in art history and tests your knowledge of each one. Built with Vanilla HTML, CSS and JavaScript.",
