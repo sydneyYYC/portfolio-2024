@@ -14,6 +14,13 @@
     href: "https://fine-art-quiz.netlify.app/"
   }
 
+  let revQuizApp = {
+    revImg : "./assets/test2.png",
+    revAlt: "character mascot of brain with hat",
+    revProjectTitle: "Quiz App",
+    revDescription: "Makes learning fun! This App asks questions from four well known periods in art history and tests your knowledge of each one. Built with Vanilla HTML, CSS and JavaScript.",
+    revHref: "https://fine-art-quiz.netlify.app/"
+  } 
   let hotwaxCard = {
     img: "./assets/hotwax-screenshot.png",
     alt: "red record player",
@@ -89,7 +96,9 @@
   <h2 class="text-4xl lg:text-5xl p-2 lg:ml-[5rem] mx-[2rem] mb-[3rem]">See my Work!</h2>
   <Workcard {...hotwaxCard}/>
 
-  <Workcard {...quizApp}/>
+  <!-- <Workcard {...quizApp}/> -->
+
+  <ReverseWorkcard {...revQuizApp}/>
   
 </section>
 <Footer />
