@@ -49,7 +49,7 @@ onMount(() => {
   </div>
 <!-- form section -->
   <section class="self-start flex flex-col overflow-hidden ">
-    <h3 class=" text-6xl lg:text-8xl mb-6 mx-6 lg:my-[1.7rem]">Contact Me</h3>
+    <h3 class=" text-6xl lg:text-8xl mb-6 mr-6 ml-4 lg:my-[1.7rem]">Contact Me</h3>
     <div class="flex flex-col border-[1.5px] border-black bg-white mx-6 mt-[2rem] justify-self-end">
       <!-- form -->
     <form id="myform" name="contact" method="POST" data-netlify="true" class="flex flex-col align-items-start p-4 mx-4 justify-self-end  mt-[1.5rem] ">

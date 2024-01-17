@@ -6,6 +6,14 @@
   import { animate } from "motion";
 	import Footer from "../lib/Footer.svelte";
 
+  let quizApp = {
+    img : "./assets/test1.png",
+    alt: "character mascot of brain with hat",
+    projectTitle: "Quiz App",
+    description: "Makes learning fun! This App asks questions from four well known periods in art history and tests your knowledge of each one. Built with Vanilla HTML, CSS and JavaScript.",
+    href: "https://fine-art-quiz.netlify.app/"
+  }
+
   let hotwaxCard = {
     img: "./assets/hotwax-screenshot.png",
     alt: "red record player",
@@ -80,6 +88,8 @@
 <section id="projects">
   <h2 class="text-4xl lg:text-5xl p-2 lg:ml-[5rem] mx-[2rem] mb-[3rem]">See my Work!</h2>
   <Workcard {...hotwaxCard}/>
+
+  <Workcard {...quizApp}/>
   
 </section>
 <Footer />
