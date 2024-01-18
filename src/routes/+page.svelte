@@ -18,7 +18,7 @@
     revImg : "./assets/test2.png",
     revAlt: "character mascot of brain with hat",
     revProjectTitle: "Quiz App",
-    revDescription: "Makes learning fun! This App asks questions from four well known periods in art history and tests your knowledge of each one. Built with Vanilla HTML, CSS and JavaScript.",
+    revDescription: "Makes learning fun! This App asks questions from four well known periods in art history and tests your knowledge of each one. Built with Vanilla HTML, CSS and JavaScript. This quiz uses local storage to store your highscore data. ",
     revHref: "https://fine-art-quiz.netlify.app/"
   } 
   let hotwaxCard = {
@@ -94,11 +94,13 @@
 <!-- portfolio section -->
 <section id="projects">
   <h2 class="text-4xl lg:text-5xl p-2 lg:ml-[5rem] mx-[2rem] mb-[3rem]">See my Work!</h2>
+  
+  <ReverseWorkcard {...revQuizApp}/>
+
   <Workcard {...hotwaxCard}/>
 
   <!-- <Workcard {...quizApp}/> -->
 
-  <ReverseWorkcard {...revQuizApp}/>
   
 </section>
 <Footer />
