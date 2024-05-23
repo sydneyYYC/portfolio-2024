@@ -39,7 +39,7 @@ onMount(() => {
 	}
 </script>
 
-<body class=" flex min-h-screen max-w-max m-0">
+<body class=" flex min-h-screen w-screen m-0 overflow-x-hidden">
   <!-- this is the animation -->
   <div class="lg:ml-[8rem] self-start my-[2rem] mr-[2rem]">
     <div class=" bg-[url('/assets/sky.png')] lg:w-[450px] lg:h-[550px] m-4 md:w-[350px] md:h-[450px] h-0 w-0 flex items-center justify-center ">
@@ -48,11 +48,11 @@ onMount(() => {
     </div>
   </div>
 <!-- form section -->
-  <section class="self-start flex flex-col overflow-hidden ml-0 mt-6">
-    <h3 class=" text-3xl lg:text-8xl mb-6 mr-6 ml-6 lg:my-[1.7rem]">Contact Me</h3>
-    <div class="flex flex-col border-[1.5px] border-black bg-white mx-6 mt-[2rem] justify-self-end">
+  <section class="self-start flex flex-col overflow-x-hidden ml-0 mt-6 w-[40%]">
+    <h3 class=" text-3xl lg:text-6xl mb-6 mr-6 ml-6 lg:my-[1.7rem]">Contact Me</h3>
+    <div class="flex flex-col border-[1.5px] border-black bg-white mx-6  justify-self-end mt-2">
       <!-- form -->
-    <form id="myform" name="contact" method="POST" data-netlify="true" class="flex flex-col align-items-start p-4 mx-4 justify-self-end  mt-[1.5rem] ">
+    <form id="myform" name="contact" method="POST" data-netlify="true" class="flex flex-col align-items-start p-4 mx-4 justify-self-end  ">
       <label for="name" class="my-2 font-semibold">Name</label>
       <input type="text" placeholder="Your Name" name="name" required class="border-b-[1px] border-black">
 
@@ -63,7 +63,7 @@ onMount(() => {
       <input type="text" placeholder="Phone" name="phone" required class="border-b-[1px] border-black ">
 
       <label for="message" class="my-2 font-semibold">Message</label>
-      <textarea name="message" id="message" rows="1" placeholder="How can I help you?" required class="border-b-[1px] border-black "></textarea>
+      <textarea name="message" id="message" rows="3" placeholder="How can I help you?" required class="border-b-[1px] border-black resize-none"></textarea>
 
       <button type="submit" name="submit" class="border-[1px] border-black self-start min-w-[40%] mr-4 px-4 py-2 my-6 mb-6 text-lg font-semibold drop-shadow-flat bg-pupink hover:bg-accent">Send</button>
       <input type="hidden" name="form-name" value="contact">

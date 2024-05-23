@@ -6,17 +6,25 @@
   let showModal = false;
 
   export let navItems = [
-    {name: "About", href:"/#about"},
-    {name: "Projects", href: "/#projects"},
-    {name: "Contact", href: "/contact"}
+    {name: "About", href:"#about"},
+    {name: "Projects", href: "#projects"},
   ];
-  
+  function smoothScroll(event, href) {
+    event.preventDefault();
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  }
 </script>
-<header class=" z-10 max-w-max  flex items-center self-center m-4 drop-shadow-flat lg:mr-[4rem] overflow-none">
+<header class=" z-10 max-w-max  flex items-center self-center m-4 drop-shadow-flat lg:mr-[4rem]">
   <ul class="flex justify-around item-center">
     {#each navItems as {name , href}}
-      <a href={href}><li class="p-2 m-2 lg:px-4 px-0 md:text-md lg:text-xl">{name}</li></a>
+      <a href={href} on:click|preventDefault={e => smoothScroll(e, href)}><li class="p-2 m-2 lg:px-4 px-0 md:text-md lg:text-xl">{name}</li></a>
     {/each}
+    <a href='/contact'><li class="p-2 m-2 lg:px-4 px-0 md:text-md lg:text-xl">Contact</li></a>
     <button  on:click={() => (showModal = true)} class="lg:px-4 px-2 text-md lg:text-xl">Resume</button>
   </ul>
   <div class="a max-w-max p-2 py-4">
