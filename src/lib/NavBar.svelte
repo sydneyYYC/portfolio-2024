@@ -20,7 +20,7 @@
   }
   function NewTab() {
             window.open(
-            "/assets/resume.pdf", "_blank");
+            "http://google.com", "_blank");
         }
 </script>
 <header class=" z-10 max-w-max  flex items-center self-center m-4 drop-shadow-flat lg:mr-[4rem]">
