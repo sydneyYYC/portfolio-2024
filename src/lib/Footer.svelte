@@ -1,9 +1,29 @@
 <script>
     export let footerItems = [
-    {name: "About", href:"/#about"},
-    {name: "Projects", href: "/#projects"},
-    {name: "Contact", href: "/contact"}
+    {name: "About", href:"#about"},
+    {name: "Projects", href: "#projects"},
+    // {name: "Contact", href: "/contact"}
   ];
+  function smoothScroll(event, targetId) {
+  event.preventDefault();
+  
+  // Check if we're already on the main page
+  if (window.location.pathname === '/') {
+    // Scroll to the target section directly
+    scrollToSection(targetId);
+  } else {
+    // Navigate to the main page and then scroll to the target section
+    window.location.href = '/';
+    window.onload = () => scrollToSection(targetId);
+  }
+}
+function scrollToSection(targetId) {
+  // console.log('scroll')
+  const targetElement = document.querySelector(targetId);
+  if (targetElement) {
+    targetElement.scrollIntoView({ behavior: 'smooth' });
+  }
+}
 </script>
 
 <footer class="border-2 border-black bg-[#FEF9F5] flex justify-around p-4 h-[10rem] items-center">
@@ -15,8 +35,9 @@
   <div class="flex flex-col justify-around self-end">
   <ul class="flex justify-around items-center">
     {#each footerItems as {name , href}}
-    <a href={href}><li class="p-2 lg:mx-2 px-2 lg:px-4 text-lg">{name}</li></a>
+    <a href={href} on:click|preventDefault={e => smoothScroll(e, href)}><li class="p-2 lg:mx-2 px-2 lg:px-4 text-lg">{name}</li></a>
     {/each}
+    <a href="/contact"><li class="p-2 lg:mx-2 px-2 lg:px-4 text-lg">Contact</li></a>
   </ul>
   <p class="text-md m-2 p-2 text-center">&copy;Sydney Bruce</p>
 </div>
