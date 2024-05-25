@@ -40,8 +40,8 @@ onMount(() => {
   import { updateNavItems } from '../../stores/navStore.js';
 
 const customNavItems = [
-  { name: 'About', href: '/#about' },
-  { name: 'Projects', href: '/#projects' },
+  { name: 'About', href: '/' },
+  { name: 'Projects', href: '/' },
 ];
 
 // Update the navigation items for this page
