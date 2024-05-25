@@ -68,10 +68,6 @@
       behavior: 'smooth'
     });
   }
-  function NewTab() {
-            window.open(
-            "resume.png", "_blank");
-        }
 </script>
 <Scrollbtn />
   <!-- header/hero section -->
