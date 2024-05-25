@@ -1,5 +1,6 @@
 <script>
 	import NavBar from "../lib/NavBar.svelte";
+	import { navItems } from '../stores/navStore.js';
 	import "../app.css";
 	import Scrollbtn from "../lib/Scrollbtn.svelte";
 </script>
@@ -17,7 +18,7 @@
 			</a>
 		</div>
 		<div class="flex items-center justify-between max-w-max">
-			<NavBar />
+			<NavBar {navItems}/>
 		</div>
 	</header>
 <slot />

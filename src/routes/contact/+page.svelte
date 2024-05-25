@@ -37,6 +37,15 @@ onMount(() => {
 		}).then(() => console.log('Form successfully submitted')).catch((error) =>
     alert(error))
 	}
+  import { updateNavItems } from '../../stores/navStore.js';
+
+const customNavItems = [
+  { name: 'About', href: '/#about' },
+  { name: 'Projects', href: '/#projects' },
+];
+
+// Update the navigation items for this page
+updateNavItems(customNavItems);
 </script>
 
 <body class=" flex min-h-screen w-screen m-0 overflow-x-hidden">

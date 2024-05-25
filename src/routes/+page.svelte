@@ -6,6 +6,15 @@
   import { animate } from "motion";
 	import Footer from "../lib/Footer.svelte";
 	import Scrollbtn from "../lib/Scrollbtn.svelte";
+  import { updateNavItems } from '../stores/navStore.js';
+
+  const customNavItems = [
+    { name: 'About', href: '#about' },
+    { name: 'Projects', href: '#projects' },
+  ];
+
+  // Update the navigation items for this page
+  updateNavItems(customNavItems);
 
   let quizApp = {
     img : "./assets/test2.png",

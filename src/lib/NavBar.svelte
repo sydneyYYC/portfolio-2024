@@ -3,21 +3,34 @@
 
   import Modal from './Modal.svelte';
 
+  export let navItems;
+
   let showModal = false;
 
-  export let navItems = [
-    {name: "About", href:"#about"},
-    {name: "Projects", href: "#projects"},
-  ];
-  function smoothScroll(event, href) {
-    event.preventDefault();
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth'
-      });
-    }
+  // export let navItems = [
+  //   {name: "About", href:"#about"},
+  //   {name: "Projects", href: "#projects"},
+  // ];
+  function smoothScroll(event, targetId) {
+  event.preventDefault();
+  
+  // Check if we're already on the main page
+  if (window.location.pathname === '/') {
+    // Scroll to the target section directly
+    scrollToSection(targetId);
+  } else {
+    // Navigate to the main page and then scroll to the target section
+    window.location.href = '/';
+    window.onload = () => scrollToSection(targetId);
   }
+}
+function scrollToSection(targetId) {
+  // console.log('scroll')
+  const targetElement = document.querySelector(targetId);
+  if (targetElement) {
+    targetElement.scrollIntoView({ behavior: 'smooth' });
+  }
+}
   // function NewTab() {
   //           window.open(
   //           "http://google.com", "_blank");
@@ -25,7 +38,7 @@
 </script>
 <header class=" z-10 max-w-max  flex items-center self-center m-4 drop-shadow-flat lg:mr-[4rem]">
   <ul class="flex justify-around item-center">
-    {#each navItems as {name , href}}
+    {#each $navItems as {name , href}}
       <a href={href} on:click|preventDefault={e => smoothScroll(e, href)}><li class="p-2 m-2 lg:px-4 px-0 md:text-md lg:text-xl">{name}</li></a>
     {/each}
     <a href='/contact'><li class="p-2 m-2 lg:px-4 px-0 md:text-md lg:text-xl">Contact</li></a>
