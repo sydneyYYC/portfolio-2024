@@ -14,7 +14,7 @@
 	<header class="mt-4 flex justify-between items-center bg-white min-w-[95vw] z-20 border-black border-2 self-center max-w-[100vw] top-4 ">
 		<div class=" flex justify-between items-center">
 			<a href="/">
-				<img src="./assets/SYDNEY-BRUCE.svg" alt="sydney bruce wordmark" class="w-auto h-[55px] lg:h-[65px] m-4">
+				<img src="./assets/SYDNEY-BRUCE.svg" alt="sydney bruce wordmark" class="w-auto h-[55px] lg:h-[65px] m-4 min-w-[40px]">
 			</a>
 		</div>
 		<div class="flex items-center justify-between max-w-max">
